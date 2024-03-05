@@ -3951,3 +3951,28 @@ DEBUG 2024-03-05 23:29:02,297 autoreload 49088 140170761261504 File /usr/lib/pyt
 DEBUG 2024-03-05 23:29:02,297 autoreload 49088 140170761261504 File /home/haseeb/PycharmProjects/resourceinn_helper/venv/lib/python3.10/site-packages/django/contrib/auth/migrations/__init__.py first seen with mtime 1709673646.187682
 DEBUG 2024-03-05 23:29:02,297 autoreload 49088 140170761261504 File /home/haseeb/PycharmProjects/resourceinn_helper/venv/lib/python3.10/site-packages/django/contrib/auth/migrations/0010_alter_group_name_max_length.py first seen with mtime 1709673646.187682
 DEBUG 2024-03-05 23:29:02,297 autoreload 49088 140170761261504 File /home/haseeb/PycharmProjects/resourceinn_helper/venv/lib/python3.10/site-packages/django/contrib/auth/migrations/0009_alter_user_last_name_max_length.py first seen with mtime 1709673646.187682
+DEBUG 2024-03-05 23:38:48,095 utils 49088 140170703676992 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-03-05 23:38:48.094655' AND "django_session"."session_key" = 'h3bs53tctl5j61sxu6wtbquahewmneg7') LIMIT 21; args=('2024-03-05 23:38:48.094655', 'h3bs53tctl5j61sxu6wtbquahewmneg7'); alias=default
+DEBUG 2024-03-05 23:38:48,096 utils 49088 140170703676992 (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+DEBUG 2024-03-05 23:38:48,097 utils 49088 140170703676992 (0.000) SELECT "user_log"."id", "user_log"."created_at", "user_log"."updated_at", "user_log"."user_id", "user_log"."action", "user_log"."status" FROM "user_log"; args=(); alias=default
+INFO 2024-03-05 23:38:48,111 basehttp 49088 140170703676992 "GET /api/log/ HTTP/1.1" 200 8489
+INFO 2024-03-05 23:38:48,134 basehttp 49088 140170703676992 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-03-05 23:38:48,136 basehttp 49088 140170611385920 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-03-05 23:38:48,136 basehttp 49088 140170619778624 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-03-05 23:38:48,138 basehttp 49088 140170602993216 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-03-05 23:38:48,138 basehttp 49088 140170594600512 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+INFO 2024-03-05 23:38:48,139 basehttp 49088 140170619778624 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-03-05 23:38:48,139 basehttp 49088 140170611385920 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-03-05 23:38:48,139 basehttp 49088 140170586207808 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-03-05 23:38:48,140 basehttp 49088 140170602993216 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-03-05 23:38:48,140 basehttp 49088 140170594600512 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+DEBUG 2024-03-05 23:38:48,178 autoreload 49088 140170761261504 File /home/haseeb/PycharmProjects/resourceinn_helper/venv/lib/python3.10/site-packages/django/template/context_processors.py first seen with mtime 1709673646.4276865
+DEBUG 2024-03-05 23:38:48,178 autoreload 49088 140170761261504 File /home/haseeb/PycharmProjects/resourceinn_helper/venv/lib/python3.10/site-packages/django/contrib/messages/storage/session.py first seen with mtime 1709673646.291684
+DEBUG 2024-03-05 23:38:48,179 autoreload 49088 140170761261504 File /home/haseeb/PycharmProjects/resourceinn_helper/venv/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py first seen with mtime 1709673646.3796854
+DEBUG 2024-03-05 23:38:48,179 autoreload 49088 140170761261504 File /home/haseeb/PycharmProjects/resourceinn_helper/venv/lib/python3.10/site-packages/django/conf/locale/en/__init__.py first seen with mtime 1709673645.9996786
+DEBUG 2024-03-05 23:38:48,179 autoreload 49088 140170761261504 File /home/haseeb/PycharmProjects/resourceinn_helper/venv/lib/python3.10/site-packages/django/contrib/messages/storage/cookie.py first seen with mtime 1709673646.291684
+DEBUG 2024-03-05 23:38:48,180 autoreload 49088 140170761261504 File /home/haseeb/PycharmProjects/resourceinn_helper/venv/lib/python3.10/site-packages/django/contrib/auth/context_processors.py first seen with mtime 1709673646.1596816
+DEBUG 2024-03-05 23:38:48,180 autoreload 49088 140170761261504 File /home/haseeb/PycharmProjects/resourceinn_helper/venv/lib/python3.10/site-packages/django/contrib/messages/storage/fallback.py first seen with mtime 1709673646.291684
+DEBUG 2024-03-05 23:38:48,181 autoreload 49088 140170761261504 File /home/haseeb/PycharmProjects/resourceinn_helper/venv/lib/python3.10/site-packages/django/conf/locale/en/formats.py first seen with mtime 1709673645.9996786
+DEBUG 2024-03-05 23:38:48,181 autoreload 49088 140170761261504 File /home/haseeb/PycharmProjects/resourceinn_helper/venv/lib/python3.10/site-packages/django/contrib/messages/context_processors.py first seen with mtime 1709673646.291684
+DEBUG 2024-03-05 23:38:48,181 autoreload 49088 140170761261504 File /home/haseeb/PycharmProjects/resourceinn_helper/venv/lib/python3.10/site-packages/django/contrib/sessions/serializers.py first seen with mtime 1709673646.3316846
+INFO 2024-03-05 23:38:48,185 basehttp 49088 140170586207808 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
